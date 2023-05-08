@@ -1,1 +1,1 @@
-# go-mod-dependency-tree
+# go-mod-deps
