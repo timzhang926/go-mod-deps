@@ -126,7 +126,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog='gomoddeps',
         description='Convert <go mod graph> output to a flat dependency tree, json, dot, png, svg file, and find all dependency paths to the input package.',
-        epilog='See <https://github.com/zhangxd926/gomoddeps> for the full manual.')
+        epilog='See <https://github.com/zhangxd926/go-mod-deps> for the full manual.')
 
     parser.add_argument('packagename', nargs='?',
                         help="the package you want to search, it must exists in <go mod graph> output")  # positional argument
